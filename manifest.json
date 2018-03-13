@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "PayWall Remover",
+    "description": "This extension removes the paywall for La Nacion",
+    "version": "1.0",
+  
+    "content_scripts": [{
+        "js": ["jquery.min.js", "content.js"],
+        "matches": ["https://www.nacion.com/*"]
+      }]
+  }
