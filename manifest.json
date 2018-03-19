@@ -2,11 +2,11 @@
     "manifest_version": 2,
   
     "name": "PayWall Remover",
-    "description": "This extension removes the paywall for La Nacion",
+    "description": "This extension removes the paywall for La Nacion and El Financiero",
     "version": "1.0",
   
     "content_scripts": [{
         "js": ["jquery.min.js", "content.js"],
-        "matches": ["https://www.nacion.com/*"]
+        "matches": ["https://www.nacion.com/*", "https://www.elfinancierocr.com/*"]
       }]
   }
